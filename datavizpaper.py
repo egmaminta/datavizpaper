@@ -23,4 +23,8 @@ def initialize_config(text_width_pt, scale=0.3):
         'ytick.direction' : 'in',
         'figure.autolayout' : True,
         'legend.fancybox' : False,
+        'legend.framealpha' : 1.0,
+        'legend.edgecolor' : 'black',
+        'legend.fontsize' : 'small',
+        'legend.markerscale' : 8.0,
     })
