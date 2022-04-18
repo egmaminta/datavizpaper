@@ -11,7 +11,7 @@ def initialize_config(text_width_pt, scale=0.3):
         'font.sans-serif' : [],
         'font.monospace' : [],
         'figure.figsize' : [scale * (text_width_in), scale * (text_width_in * golden_ratio)],
-        'figure.dpi' : 500,
+        'figure.dpi' : 600,
         'figure.edgecolor' : 'black',
         'axes.edgecolor' : 'black',
         'axes.linewidth' : 0.8,
@@ -26,5 +26,4 @@ def initialize_config(text_width_pt, scale=0.3):
         'legend.framealpha' : 1.0,
         'legend.edgecolor' : 'black',
         'legend.fontsize' : 'small',
-        'legend.markerscale' : 8.0,
     })
